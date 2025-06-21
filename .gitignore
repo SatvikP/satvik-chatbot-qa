@@ -1,0 +1,34 @@
+# API Keys and sensitive data
+.env
+*.key
+
+# Vector database (can be regenerated)
+vector_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+blog-qa-env/
+venv/
+env/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
